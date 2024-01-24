@@ -11,6 +11,7 @@
 		46767A322B61A4B700F3A724 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46767A272B61A4B700F3A724 /* Networking.framework */; };
 		46767A372B61A4B700F3A724 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46767A362B61A4B700F3A724 /* NetworkingTests.swift */; };
 		46767A382B61A4B700F3A724 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 46767A2A2B61A4B700F3A724 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46767A8F2B61ABF000F3A724 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46767A8E2B61ABF000F3A724 /* NetworkingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		46767A2B2B61A4B700F3A724 /* Networking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Networking.docc; sourceTree = "<group>"; };
 		46767A312B61A4B700F3A724 /* NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46767A362B61A4B700F3A724 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		46767A8E2B61ABF000F3A724 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				46767A2A2B61A4B700F3A724 /* Networking.h */,
 				46767A2B2B61A4B700F3A724 /* Networking.docc */,
+				46767A8E2B61ABF000F3A724 /* NetworkingClient.swift */,
 			);
 			path = NetworkingPackage;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46767A8F2B61ABF000F3A724 /* NetworkingClient.swift in Sources */,
 				46767A2C2B61A4B700F3A724 /* Networking.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +427,7 @@
 		46767A3F2B61A4B700F3A724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XF83TY85WG;
@@ -439,6 +444,7 @@
 		46767A402B61A4B700F3A724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XF83TY85WG;
