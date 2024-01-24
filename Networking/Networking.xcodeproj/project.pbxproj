@@ -53,8 +53,8 @@
 		46767A1D2B61A4B700F3A724 = {
 			isa = PBXGroup;
 			children = (
-				46767A292B61A4B700F3A724 /* Networking */,
-				46767A352B61A4B700F3A724 /* NetworkingTests */,
+				46767A412B61A58900F3A724 /* Source */,
+				46767A422B61A59600F3A724 /* Tests */,
 				46767A282B61A4B700F3A724 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46767A292B61A4B700F3A724 /* Networking */ = {
+		46767A292B61A4B700F3A724 /* NetworkingPackage */ = {
 			isa = PBXGroup;
 			children = (
 				46767A2A2B61A4B700F3A724 /* Networking.h */,
 				46767A2B2B61A4B700F3A724 /* Networking.docc */,
 			);
-			path = Networking;
+			path = NetworkingPackage;
 			sourceTree = "<group>";
 		};
 		46767A352B61A4B700F3A724 /* NetworkingTests */ = {
@@ -83,6 +83,22 @@
 				46767A362B61A4B700F3A724 /* NetworkingTests.swift */,
 			);
 			path = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		46767A412B61A58900F3A724 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46767A292B61A4B700F3A724 /* NetworkingPackage */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46767A422B61A59600F3A724 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46767A352B61A4B700F3A724 /* NetworkingTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
