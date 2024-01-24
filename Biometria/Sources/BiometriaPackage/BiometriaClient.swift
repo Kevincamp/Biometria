@@ -7,7 +7,7 @@
 
 import Foundation
 open class BiometriaClient {
-    func helloWorld() {
+    public static func helloWorld() {
         print("Hello world from Biometria Framework")
     }
 }

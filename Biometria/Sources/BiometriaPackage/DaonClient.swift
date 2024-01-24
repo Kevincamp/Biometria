@@ -7,7 +7,7 @@
 
 import Foundation
 open class DaonClient {
-    public func helloWorl() {
+    public static func helloWorl() {
         print("Hello world from Daon Client")
     }
 }
